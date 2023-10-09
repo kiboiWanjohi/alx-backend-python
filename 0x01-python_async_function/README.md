@@ -1,83 +1,4 @@
-<div class="col-xs-12 col-md-10 col-lg-8 contains-images">
-
-      <h1 class="gap">0x01. Python - Async</h1>
-
-  <div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[{&quot;id&quot;:19,&quot;value&quot;:&quot;Python&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:35,&quot;value&quot;:&quot;Back-end&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;}]}" data-react-cache-id="tags/Tags-0"><div class="align-items-center d-flex flex-wrap gap-3 my-2"><span class="label label-primary" style="font-size: 14px;">Python</span><span class="label label-primary" style="font-size: 14px;">Back-end</span></div></div>
-
-  <div data-react-class="projects/ProjectMetadata" data-react-props="{&quot;metadata&quot;:{&quot;author&quot;:&quot;Emmanuel Turlay, Staff Software Engineer at Cruise&quot;,&quot;weight&quot;:1,&quot;correction&quot;:{&quot;released&quot;:false,&quot;auto_correction_available_at&quot;:&quot;2023-10-09T12:00:00.000+03:00&quot;,&quot;requires_auto_correction&quot;:true,&quot;requires_manual_correction&quot;:false},&quot;bpi&quot;:{&quot;current&quot;:true,&quot;started&quot;:false,&quot;in_second_deadline&quot;:false,&quot;starts_at&quot;:&quot;2023-10-09T06:00:00.000+03:00&quot;,&quot;ends_at&quot;:&quot;2023-10-10T06:00:00.000+03:00&quot;,&quot;second_deadline_at&quot;:&quot;2023-10-14T06:00:00.000+03:00&quot;}}}" data-react-cache-id="projects/ProjectMetadata-0"><ul class="list-group metadata" id="project-metadata"><li class="list-group-item"><i aria-hidden="true" class="fa-solid fa-user fa-fw"></i> By: Emmanuel Turlay, Staff Software Engineer at Cruise</li><li class="list-group-item"><i aria-hidden="true" class="fa-solid fa-gear fa-fw"></i> Weight: 1</li><li class="list-group-item"><i aria-hidden="true" class="fa-solid fa-calendar fa-fw"></i> Project will start <span data-container="body" data-html="false" data-placement="auto top" data-toggle="tooltip" title="" data-original-title="2023-10-09 06:00 (GMT+03:00)"><span class="datetime">Oct 9, 2023 6:00 AM</span></span>, must end by <span data-container="body" data-html="false" data-placement="auto top" data-toggle="tooltip" title="" data-original-title="2023-10-10 06:00 (GMT+03:00)"><span class="datetime">Oct 10, 2023 6:00 AM</span></span></li><li class="list-group-item"><i aria-hidden="true" class="fa-solid fa-check fa-fw"></i> Checker will be released at <span data-container="body" data-html="false" data-placement="auto top" data-toggle="tooltip" title="" data-original-title="2023-10-09 12:00 (GMT+03:00)"><span class="datetime">Oct 9, 2023 12:00 PM</span></span></li><li class="list-group-item"><i aria-hidden="true" class="fa-solid fa-square-check fa-fw"></i> An auto review will be launched at the deadline</li></ul></div>
-
-
-
-
-    
-
-
-    <h2 class="gap">Tasks</h2><div id="project_id" style="display: none" data-project-id="1230"></div>
-
-
-
-      
-
-      
-
-      
-
-
-      
-
-      
-
-        
-          
-
-    <div class="panel panel-default" id="project-description">
-  <div class="panel-body">
-    <p><img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/4aeaa9c3cb1f316c05c4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231009%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20231009T081449Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=fab3fbb3e483e8c61cf3273fff9cf9c86db0e0d0a4b160afa6e2182a87084889" alt="" loading="lazy" style=""></p>
-
-<h2>Resources</h2>
-
-<p><strong>Read or watch</strong>:</p>
-
-<ul>
-<li><a href="/rltoken/zYkXScziW1D5rNdNEvObjQ" title="Async IO in Python: A Complete Walkthrough" target="_blank">Async IO in Python: A Complete Walkthrough</a></li>
-<li><a href="/rltoken/aZUO4GiWHbPIrVBIwptFAw" title="asyncio - Asynchronous I/O" target="_blank">asyncio - Asynchronous I/O</a></li>
-<li><a href="/rltoken/72mVf1s8rx2ih_U2WjBmaA" title="random.uniform" target="_blank">random.uniform</a></li>
-</ul>
-
-<h2>Learning Objectives</h2>
-
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/RzzuxS2J7-SysSxP0Hu3cA" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
-
-<ul>
-<li><code>async</code> and <code>await</code> syntax</li>
-<li>How to execute an async program with <code>asyncio</code></li>
-<li>How to run concurrent coroutines</li>
-<li>How to create <code>asyncio</code> tasks</li>
-<li>How to use the <code>random</code> module</li>
-</ul>
-
-<h2>Requirements</h2>
-
-<h3>General</h3>
-
-<ul>
-<li>A <code>README.md</code> file, at the root of the folder of the project, is mandatory</li>
-<li>Allowed editors: <code>vi</code>, <code>vim</code>, <code>emacs</code></li>
-<li>All your files will be interpreted/compiled on Ubuntu 18.04 LTS using <code>python3</code> (version 3.7)</li>
-<li>All your files should end with a new line</li>
-<li>All your files must be executable</li>
-<li>The length of your files will be tested using <code>wc</code></li>
-<li>The first line of all your files should be exactly <code>#!/usr/bin/env python3</code></li>
-<li>Your code should use the <code>pycodestyle</code> style (version 2.5.x)</li>
-<li>All your functions and coroutines must be type-annotated.</li>
-<li>All your modules should have a documentation (<code>python3 -c 'print(__import__("my_module").__doc__)'</code>)</li>
-<li>All your functions should have a documentation (<code>python3 -c 'print(__import__("my_module").my_function.__doc__)'</code></li>
-<li>A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)</li>
-</ul>
-
-  </div>
-</div><div data-role="task11625" data-position="1" id="task-num-0">
-      <div class="panel panel-default task-card " id="task-11625">
+<div class="panel panel-default task-card " id="task-11625">
   <span id="user_id" data-id="194319"></span>
 
   <div class="panel-heading panel-heading-actions">
@@ -189,8 +110,7 @@ bob@dylan:~$ ./0-main.py
   </div>
 </div>
 
-    </div>
-    <div data-role="task11626" data-position="2" id="task-num-1">
+<div data-role="task11626" data-position="2" id="task-num-1">
       <div class="panel panel-default task-card " id="task-11626">
   <span id="user_id" data-id="194319"></span>
 
@@ -308,7 +228,8 @@ bob@dylan:~$ ./1-main.py
 </div>
 
     </div>
-    <div data-role="task11627" data-position="3" id="task-num-2">
+
+<div data-role="task11627" data-position="3" id="task-num-2">
       <div class="panel panel-default task-card " id="task-11627">
   <span id="user_id" data-id="194319"></span>
 
@@ -421,7 +342,8 @@ bob@dylan:~$ ./2-main.py
 </div>
 
     </div>
-    <div data-role="task11628" data-position="4" id="task-num-3">
+
+<div data-role="task11628" data-position="4" id="task-num-3">
       <div class="panel panel-default task-card " id="task-11628">
   <span id="user_id" data-id="194319"></span>
 
@@ -537,7 +459,8 @@ bob@dylan:~$ ./3-main.py
 </div>
 
     </div>
-    <div data-role="task11629" data-position="4" id="task-num-4">
+
+<div data-role="task11629" data-position="4" id="task-num-4">
       <div class="panel panel-default task-card " id="task-11629">
   <span id="user_id" data-id="194319"></span>
 
@@ -649,10 +572,3 @@ bob@dylan:~$ ./4-main.py
     </div>
 
 
-
-
-
-          <div class="modal fade" id="container-specs-modal"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button><h4 class="modal-title">Recommended Sandbox</h4></div><div class="modal-body"><div data-react-class="user_containers/ContainerSpecs" data-react-props="{&quot;containerModelName&quot;:&quot;Sandbox&quot;,&quot;containerSpecs&quot;:[{&quot;available&quot;:true,&quot;description&quot;:&quot;\u003cp\u003eUbuntu 18.04 with Python 3.7\u003c/p\u003e\n&quot;,&quot;id&quot;:23,&quot;name&quot;:&quot;Ubuntu 18.04 - Python 3.7&quot;,&quot;online&quot;:true}],&quot;containersLimit&quot;:2,&quot;csrfToken&quot;:&quot;W7NIOwI2ai4FygOXlThbZZjayXD43E9Uj06Lp-9rid_x3GWhX6quFkLjhmBI22VxARm5F2zV8EbabsLdzn5lKA&quot;,&quot;startStatusURI&quot;:&quot;/user_containers/start_status.json&quot;,&quot;startURI&quot;:&quot;/user_containers/start.json&quot;}" data-react-cache-id="user_containers/ContainerSpecs-0"><div><div class="d-flex gap-4 sandboxes-filters"><a class="btn btn-outline-primary"><i aria-hidden="true" class="fa-solid fa-filter"></i><span class="ml-2">Running only</span></a><div class="align-items-center d-flex" style="position: relative; width: 100%;"><input class="form-control" placeholder="Search for an image ..." type="search" value=""></div></div><div class="mt-3"><h3>1 image<small class="ml-2">(0/2 Sandboxes spawned)</small></h3></div><div class="mt-3"><div class="panel panel-default"><div class="panel-body"><div class="align-items-center d-flex flex-wrap justify-content-between"><div><h3 class="mt-0"><i aria-hidden="true" class="fa-solid fa-terminal text-danger"></i><span class="ml-2">Ubuntu 18.04 - Python 3.7</span></h3><div class="mt-2 text-muted"><p>Ubuntu 18.04 with Python 3.7</p>
-</div></div><div class="d-flex flex-wrap gap-5"><a class="btn btn-success"><i aria-hidden="true" class="fa-solid fa-play"></i><span class="ml-2">Run</span></a></div></div></div></div></div></div></div></div></div></div></div>
-
-  </div>
